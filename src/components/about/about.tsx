@@ -16,15 +16,17 @@ const eventos = [
         titulo: "Abr 2024 – Jul 2024",
         subtitulo: "Estágio em Redes e Segurança",
         descricao:
-            `Durante um estágio de 3 meses em uma provedora de Internet, atuei na área de redes e segurança. Aprendi na prática sobre 
-            infraestrutura, configuração de redes e proteção de dados, vivenciando o dia a dia técnico de um provedor.`,
+            `Durante um estágio de 3 meses, atuei na área de redes, segurança e automação. Aprendi na prática sobre 
+            infraestrutura, configuração de redes e proteção de dados, vivenciando o dia a dia técnico de um provedor. Além disso,
+            desenvolvi um projeto de automação em Python, que me proporcionou uma visão prática de como unir programação
+            à situações problemas inesperadas.`,
         imagem: "/about/2.jpg",
     },
     {
         titulo: "Ago 2024 – Mai 2025",
         subtitulo: "Pronto Afeto: um projeto para a saúde",
         descricao:
-            `Participação no projeto "Pronto Afeto", desenvolvido em parceria com o Instituto Federal da Bahia. Utilizando Next.js e 
+            `Bolsista no projeto "Pronto Afeto" pela EmbrapII, desenvolvido em parceria com o Instituto Federal da Bahia. Utilizando Next.js e 
             Spring Boot, contribuí para a criação de uma plataforma com impacto social positivo, colaborando com profissionais experientes.`,
         imagem: "/about/3.jpg",
     },
@@ -95,7 +97,7 @@ const AboutSection = () => {
                 })}
 
                 {/* Bloco final */}
-                <div className="flex md:justify-center mt-20 z-50 relative">
+                <div className="flex md:justify-center mt-20 relative">
                     <div
                         className="w-32 h-32 rounded-full bg-yellow-400 text-white border-gray-200 
           border-8 flex flex-col items-center justify-center text-center text-md font-bold px-2"

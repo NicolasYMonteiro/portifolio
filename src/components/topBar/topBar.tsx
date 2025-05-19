@@ -46,7 +46,7 @@ const TopBar = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 p-2 md:p-4 text-zinc-200 transition-colors duration-300 shadow-md ${
-        isTop ? "bg-transparent" : "bg-zinc-800"
+        isTop ? "md:bg-transparent bg-zinc-800" : "bg-zinc-800"
       }`}
     >
       <div className="flex items-center justify-between px-2 py-2">
@@ -58,7 +58,7 @@ const TopBar = () => {
         </a>
 
         <button
-          className="flex items-center text-zinc-400 border border-zinc-700 hover:border-zinc-600 hover:border-2 px-3 py-1 rounded-md text-xl md:hidden"
+          className="flex items-center text-zinc-400 border border-zinc-700 hover:border-zinc-600 hover:border-2 px-3 py-1 rounded-md text-lg md:hidden"
           type="button"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
