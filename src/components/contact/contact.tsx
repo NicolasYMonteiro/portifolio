@@ -44,7 +44,11 @@ const Contact = () => {
                 throw new Error('Erro ao enviar a mensagem.');
             }
         } catch (error) {
-            setErrorMessage('Erro ao enviar a mensagem. Tente novamente mais tarde.');
+            if (error instanceof Error) {
+                setErrorMessage(error.message || 'Erro ao enviar a mensagem.');
+            } else {
+                setErrorMessage('Erro ao enviar a mensagem.');
+            }
         }
     };
     

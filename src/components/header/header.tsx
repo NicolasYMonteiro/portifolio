@@ -6,8 +6,10 @@ const Header = () => {
         <div className="relative w-full">
             <TopBar />
             <Image
-                src="header.webp"
+                src="/header.webp"
                 alt=""
+                width={1920} 
+                height={92}
                 className="w-full h-92 md:h-128 object-cover brightness-20"
             />
 

@@ -30,8 +30,14 @@ const Modal = ({ projeto, onClose }: ModalProps) => {
         </button>
         <h2 className="text-3xl font-bold italic mb-2">{projeto.titulo}</h2>
         <p className="text-2xl text-zinc-700 mb-4">{projeto.subtitulo}</p>
-        <Image src={projeto.imagem} alt={projeto.alt} className="w-full h-auto rounded-xl" />
-        <p className="text-xl my-4">{projeto.descricao}</p>
+        <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden mb-4">
+          <Image
+            src={projeto.imagem}
+            alt={projeto.alt}
+            fill
+            className="object-cover"
+          />
+        </div>        <p className="text-xl my-4">{projeto.descricao}</p>
         <div className="text-lg text-zinc-700">
           <p><strong>Tecnologias:</strong> {projeto.tecnologias.join(", ")}.</p>
           <p><strong>Ano:</strong> {projeto.data}</p>
