@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 const Servicos = () => {
   return (
@@ -18,8 +19,8 @@ const Servicos = () => {
           {/* Front-End */}
           <div className="flex flex-col items-center">
             <div className="flex justify-center space-x-4 mb-4">
-              <img src="servicos/angular.png" alt="Angular" className="w-20 h-20" />
-              <img src="servicos/react.png" alt="React" className="w-20 h-20" />
+              <Image src="servicos/angular.png" alt="Angular" className="w-20 h-20" />
+              <Image src="servicos/react.png" alt="React" className="w-20 h-20" />
             </div>
             <h4 className="text-xl font-semibold mb-2">Desenvolvimento Front-End</h4>
             <p className="text-zinc-600">
@@ -32,8 +33,8 @@ const Servicos = () => {
           {/* Back-End */}
           <div className="flex flex-col items-center">
             <div className="flex justify-center space-x-4 mb-4">
-              <img src="servicos/spring.png" alt="Spring Boot" className="w-20 h-20" />
-              <img src="servicos/nodejs.png" alt="Node.js" className="w-24 h-24" />
+              <Image src="servicos/spring.png" alt="Spring Boot" className="w-20 h-20" />
+              <Image src="servicos/nodejs.png" alt="Node.js" className="w-24 h-24" />
             </div>
             <h4 className="text-xl font-semibold mb-2">Desenvolvimento Back-End</h4>
             <p className="text-zinc-600">
@@ -46,7 +47,7 @@ const Servicos = () => {
           {/* Dados */}
           <div className="flex flex-col items-center">
             <div className="flex justify-center mb-4">
-              <img src="servicos/dados.png" alt="Dados" className="w-24 h-24" />
+              <Image src="servicos/dados.png" alt="Dados" className="w-24 h-24" />
             </div>
             <h4 className="text-xl font-semibold mb-2">Análise de Dados</h4>
             <p className="text-zinc-600">
@@ -58,7 +59,7 @@ const Servicos = () => {
           {/* Suporte Técnico */}
           <div className="flex flex-col items-center">
             <div className="flex justify-center mb-4">
-              <img src="servicos/ti.png" alt="TI" className="w-24 h-24" />
+              <Image src="servicos/ti.png" alt="TI" className="w-24 h-24" />
             </div>
             <h4 className="text-xl font-semibold mb-2">Suporte Técnico e Manutenção</h4>
             <p className="text-zinc-600">

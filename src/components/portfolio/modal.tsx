@@ -1,4 +1,5 @@
 import { MdOutlineInsertLink } from "react-icons/md";
+import Image from "next/image";
 
 interface projeto {
   titulo: string;
@@ -29,7 +30,7 @@ const Modal = ({ projeto, onClose }: ModalProps) => {
         </button>
         <h2 className="text-3xl font-bold italic mb-2">{projeto.titulo}</h2>
         <p className="text-2xl text-zinc-700 mb-4">{projeto.subtitulo}</p>
-        <img src={projeto.imagem} alt={projeto.alt} className="w-full h-auto rounded-xl" />
+        <Image src={projeto.imagem} alt={projeto.alt} className="w-full h-auto rounded-xl" />
         <p className="text-xl my-4">{projeto.descricao}</p>
         <div className="text-lg text-zinc-700">
           <p><strong>Tecnologias:</strong> {projeto.tecnologias.join(", ")}.</p>

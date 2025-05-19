@@ -1,10 +1,11 @@
 import TopBar from "../topBar/topBar";
+import Image from "next/image";
 
 const Header = () => {
     return (
         <div className="relative w-full">
             <TopBar />
-            <img
+            <Image
                 src="header.webp"
                 alt=""
                 className="w-full h-92 md:h-128 object-cover brightness-20"
