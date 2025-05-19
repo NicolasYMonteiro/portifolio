@@ -22,21 +22,21 @@ const Contact = () => {
         e.preventDefault();
         setSuccessMessage('');
         setErrorMessage('');
-    
+
         const { name, email, phone, message } = formData;
-    
+
         if (!name || !email || !phone || !message) {
             setErrorMessage('Por favor, preencha todos os campos obrigatórios.');
             return;
         }
-    
+
         try {
             const response = await fetch('/api/contact', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name, email, phone, message }),
             });
-    
+
             if (response.ok) {
                 setSuccessMessage('Mensagem enviada com sucesso!');
                 setFormData({ name: '', email: '', phone: '', message: '' });
@@ -51,12 +51,12 @@ const Contact = () => {
             }
         }
     };
-    
+
 
     return (
         <section
             id="contact"
-            className="relative bg-[#1b212b] bg-[url('/map-image.png')] bg-no-repeat bg-cover bg-center py-20 px-4"
+            className="relative bg-[#1b212b] bg-[url('/map-image.png')] bg-no-repeat bg-cover bg-center pt-20 pb-12 px-4"
         >
             {/* Fundo escuro sobre a imagem */}
             <div className="absolute inset-0 z-0" />
@@ -124,6 +124,12 @@ const Contact = () => {
                     </div>
                 </form>
             </div>
+            <div className="relative z-10 max-w-5xl mx-auto text-center text-white mt-12">
+                <p className="italic text-2xl text-gray-300">
+                    Você também pode enviar uma mensagem diretamente para o e-mail: {'nicolasmonteiro0123@gmail.com'}
+                </p>
+            </div>
+
         </section>
 
     );
