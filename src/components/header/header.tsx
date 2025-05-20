@@ -14,8 +14,8 @@ const Header = () => {
             />
 
             <div className="flex absolute inset-0 z-10 flex-col items-center justify-center text-center px-4 mt-16 text-white">
-                <h1 className="text-2xl md:text-4xl font-bold font-serif mb-2 italic">Olá, sou Nícolas Monteiro</h1>
-                <p className="text-xl md:text-2xl font-semibold max-w-2xl mt-2 md:mt-6">
+                <h1 className="text-2xl md:text-4xl font-bold font-serif mb-2 italic">Olá, sou Nícolas Monteiro.</h1>
+                <p className="text-lg md:text-2xl font-semibold max-w-2xl mt-2 md:mt-6">
                     Desenvolvedor Full Stack com foco em Angular, Next.js, Spring Boot e NodeJs. Estudante de Estatística pela UFBA, apaixonado por tecnologia e dados.
                 </p>
 

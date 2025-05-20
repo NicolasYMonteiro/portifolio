@@ -100,9 +100,12 @@ const AboutSection = () => {
                 <div className="flex md:justify-center mt-20 relative">
                     <div
                         className="w-32 h-32 rounded-full bg-yellow-400 text-white border-gray-200 
-          border-8 flex flex-col items-center justify-center text-center text-md font-bold px-2"
+          border-8 flex flex-col items-center justify-center text-center text-md font-bold p-4 hover:bg-yellow-500
+          transition duration-300 ease-in-out shadow-lg"
                     >
-                        Seja parte <br /> da minha <br /> história!
+                        <a href="https://www.linkedin.com/in/n%C3%ADcolas-monteiro-5237b2282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                            Seja parte da minha história!
+                        </a>
                     </div>
                 </div>
             </div>

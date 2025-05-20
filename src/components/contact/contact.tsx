@@ -64,7 +64,7 @@ const Contact = () => {
             {/* Conteúdo */}
             <div className="relative z-10 max-w-5xl mx-auto text-center text-white">
                 <h2 className="text-4xl font-bold uppercase">Contato</h2>
-                <p className="mt-2 italic text-2xl text-gray-300">
+                <p className="mt-2 italic text-xl md:text-2xl text-gray-300">
                     Envie sua mensagem e retornarei o mais breve possível.
                 </p>
 
@@ -125,7 +125,7 @@ const Contact = () => {
                 </form>
             </div>
             <div className="relative z-10 max-w-5xl mx-auto text-center text-white mt-12">
-                <p className="italic text-2xl text-gray-300">
+                <p className="italic text-lg md:text-xl text-gray-300">
                     Você também pode enviar uma mensagem diretamente para o e-mail: {'nicolasmonteiro0123@gmail.com'}
                 </p>
             </div>

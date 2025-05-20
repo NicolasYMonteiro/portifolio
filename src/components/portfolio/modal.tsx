@@ -21,7 +21,7 @@ interface ModalProps {
 const Modal = ({ projeto, onClose }: ModalProps) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/30 z-50">
-      <div className="bg-white p-8 rounded shadow-lg max-w-lg w-full relative">
+      <div className="bg-white text-black p-8 rounded shadow-lg max-w-lg w-full relative">
         <button
           className="absolute top-4 right-4 text-3xl text-gray-500 hover:text-gray-700"
           onClick={onClose}
