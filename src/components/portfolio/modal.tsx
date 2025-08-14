@@ -7,8 +7,9 @@ interface projeto {
   descricao: string;
   imagem: string;
   alt: string;
-  github?: string; // opcional
-  site?: string;   // opcional
+  githubfront?: string; // opcional
+  githubback?: string; // opcional
+  site?: string; // opcional
   tecnologias: string[];
   data: string;
 }
@@ -44,17 +45,6 @@ const Modal = ({ projeto, onClose }: ModalProps) => {
         </div>
 
         <div className="mt-6 flex flex-col gap-3">
-          {projeto.github && (
-            <a
-              href={projeto.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 underline flex items-center"
-            >
-              <MdOutlineInsertLink className="text-2xl mr-2" />
-              <span className="text-xl font-medium mb-1">Repositório GitHub</span>
-            </a>
-          )}
           {projeto.site && (
             <a
               href={projeto.site}
@@ -66,6 +56,29 @@ const Modal = ({ projeto, onClose }: ModalProps) => {
               <span className="text-xl font-medium mb-1">Ver site online</span>
             </a>
           )}
+          {projeto.githubfront && (
+            <a
+              href={projeto.githubfront}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline flex items-center"
+            >
+              <MdOutlineInsertLink className="text-2xl mr-2" />
+              <span className="text-xl font-medium mb-1">Repositório GitHub - Front End</span>
+            </a>
+          )}
+          {projeto.githubback && (
+            <a
+              href={projeto.githubback}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline flex items-center"
+            >
+              <MdOutlineInsertLink className="text-2xl mr-2" />
+              <span className="text-xl font-medium mb-1">Repositório GitHub - Back End</span>
+            </a>
+          )}
+
         </div>
       </div>
     </div>

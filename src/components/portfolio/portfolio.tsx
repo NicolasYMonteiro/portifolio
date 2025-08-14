@@ -10,7 +10,8 @@ interface projeto {
   descricao: string;
   imagem: string;
   alt: string;
-  github?: string; // opcional
+  githubfront?: string; // opcional
+  githubback?: string; // opcional
   site?: string;   // opcional
   tecnologias: string[];
   data: string;
@@ -22,9 +23,11 @@ const projetos: projeto[] = [
     subtitulo: "Gestão de Tarefas",
     descricao:
       "Plataforma para organização de tarefas e acompanhamento de metas pessoais, com foco em produtividade e gestão do tempo.",
-    imagem: "/portfolio/graficos.jpeg",
+    imagem: "/portfolio/Perfil.jpeg",
     alt: "Tela Inicial do Atlas",
-    github: "#", // link para GitHub ou deploy
+    githubfront: "https://github.com/NicolasYMonteiro/task-tracker-frontend",
+    githubback: "https://github.com/NicolasYMonteiro/task-tracker-backend",
+    site: "https://atlasdesenvolvimento.vercel.app/",
     tecnologias: ["Angular", "Node.js"],
     data: "2024",
   },
@@ -35,7 +38,6 @@ const projetos: projeto[] = [
     forma eficiente e segura. Projeto encomendado pela a empresa Pronto Afeto.`,
     imagem: "/portfolio/medico.jpg",
     alt: "Agendamento médico",
-    site: "#", // link para GitHub ou deploy
     tecnologias: ["(Next.js ", "e Spring Boot)"],
     data: "2024",
   },
