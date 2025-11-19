@@ -16,9 +16,6 @@ const Footer = () => {
                     <a href="https://github.com/nicolasYmonteiro" target="_blank" aria-label="GitHub" className=" transition hover:text-yellow-600">
                         <i className="fab fa-github text-4xl"></i>
                     </a>
-                    <a href="https://www.youtube.com/@DevNoBrasil" target="_blank" aria-label="Youttube" className="hover:text-yellow-600 transition">
-                        <i className="fab fa-youtube text-4xl"></i>
-                    </a>
                     <a href="https://www.linkedin.com/in/n%C3%ADcolas-monteiro-5237b2282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn" target="_blank" className="hover:text-yellow-600 transition">
                         <i className="fab fa-linkedin-in text-4xl"></i>
                     </a>

@@ -37,6 +37,14 @@ const eventos = [
             `Iniciei o bacharelado em Estatística na Universidade Federal da Bahia (UFBA) com o objetivo de fortalecer minha base matemática e desenvolver habilidades avançadas em análise de dados. 
             Ao integrar tecnologia, estatística e programação, busco me tornar um profissional completo, capaz de transformar dados em soluções inteligentes e atuar com profundidade nas áreas de Inteligência Artificial e ciência de dados.`,
         imagem: "/about/4.jpg",
+    },
+    {
+        titulo: "Ago 2025 – Atualmente",
+        subtitulo: "Bolsista de Estatística no Ministério da Saúde",
+        descricao:
+            `Atualmente, sou bolsista no Ministério da Saúde, onde aplico meus conhecimentos em estatística para contribuir com análises e projetos que impactam a saúde pública. 
+            Essa experiência me permite desenvolver habilidades práticas e aprofundar meu entendimento sobre a aplicação da estatística em contextos reais e relevantes.`,
+        imagem: "/about/5.png",
     }
 
 
