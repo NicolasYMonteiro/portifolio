@@ -6,48 +6,46 @@ import Image from "next/image";
 const eventos = [
     {
         titulo: "Mar 2020 – Dez 2024",
-        subtitulo: "Início dos meus estudos em Tecnologia da Informação",
+        subtitulo: "Fundação Técnica no IFBA",
         descricao:
-            `Meu primeiro contato com a área de TI foi no Instituto Federal da Bahia (IFBA), onde estudei diversas áreas da tecnologia. 
-            Durante o curso, tive a oportunidade de aprender com doutores e especialistas renomados que enriqueceram minha formação.`,
+            `Minha jornada na tecnologia começou no Instituto Federal da Bahia, onde construí uma base sólida em TI sob orientação de doutores e especialistas. 
+            Esta formação multidisciplinar me proporcionou a visão técnica que hoje aplico em análise de dados e desenvolvimento de software.`,
         imagem: "/about/1.jpg",
     },
     {
         titulo: "Abr 2024 – Jul 2024",
-        subtitulo: "Estágio em Redes e Segurança",
+        subtitulo: "Imersão em Redes e Automação",
         descricao:
-            `Durante um estágio de 3 meses, atuei na área de redes, segurança e automação. Aprendi na prática sobre 
-            infraestrutura, configuração de redes e proteção de dados, vivenciando o dia a dia técnico de um provedor. Além disso,
-            desenvolvi um projeto de automação em Python, que me proporcionou uma visão prática de como unir programação
-            à situações problemas inesperadas.`,
+            `Como estagiário em infraestrutura de TI, mergulhei no mundo de redes corporativas e segurança cibernética. 
+            Destaquei-me ao desenvolver uma solução de automação em Python que otimizou processos operacionais, 
+            demonstrando minha capacidade de unir programação à resolução de problemas complexos.`,
         imagem: "/about/2.jpg",
     },
     {
         titulo: "Ago 2024 – Mai 2025",
-        subtitulo: "Pronto Afeto: um projeto para a saúde",
+        subtitulo: "Pronto Afeto: Tecnologia com Impacto Social",
         descricao:
-            `Bolsista no projeto "Pronto Afeto" pela EmbrapII, desenvolvido em parceria com o Instituto Federal da Bahia. Utilizando Next.js e 
-            Spring Boot, contribuí para a criação de uma plataforma com impacto social positivo, colaborando com profissionais experientes.`,
+            `Como desenvolvedor full-stack no projeto Pronto Afeto (EmbrapII/IFBA), atuei na criação de uma plataforma de saúde mental usando Next.js e Spring Boot. 
+            Colaborei com profissionais seniores para entregar uma solução escalável que impacta positivamente a vida das pessoas.`,
         imagem: "/about/3.jpg",
     },
     {
         titulo: "Mar 2025 – Atualmente",
-        subtitulo: "UFBA: Início do Bacharelado em Estatística",
+        subtitulo: "UFBA: Bacharelado em Estatística",
         descricao:
-            `Iniciei o bacharelado em Estatística na Universidade Federal da Bahia (UFBA) com o objetivo de fortalecer minha base matemática e desenvolver habilidades avançadas em análise de dados. 
-            Ao integrar tecnologia, estatística e programação, busco me tornar um profissional completo, capaz de transformar dados em soluções inteligentes e atuar com profundidade nas áreas de Inteligência Artificial e ciência de dados.`,
+            `Decidi aprofundar minha base matemática na UFBA para evoluir de desenvolvedor para cientista de dados. 
+            O curso me proporciona o rigor analítico necessário para construir modelos estatísticos robustos e soluções de IA com fundamentação teórica sólida.`,
         imagem: "/about/4.jpg",
     },
     {
         titulo: "Ago 2025 – Atualmente",
-        subtitulo: "Bolsista de Estatística no Ministério da Saúde",
+        subtitulo: "Estatístico no Ministério da Saúde",
         descricao:
-            `Atualmente, sou bolsista no Ministério da Saúde, onde aplico meus conhecimentos em estatística para contribuir com análises e projetos que impactam a saúde pública. 
-            Essa experiência me permite desenvolver habilidades práticas e aprofundar meu entendimento sobre a aplicação da estatística em contextos reais e relevantes.`,
+            `Atuo como bolsista aplicando análise estatística avançada para impactar políticas públicas de saúde. 
+            Transformo dados complexos do SUS em insights acionáveis, contribuindo para a tomada de decisão em escala nacional e 
+            desenvolvendo expertise em saúde pública e análise de dados governamentais.`,
         imagem: "/about/5.png",
     }
-
-
 ];
 
 const AboutSection = () => {
